@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+ 
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  min-width: 99%;
+  max-height: 464px; 
+  margin-bottom: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: #008CBA; */
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.position_right{
+    top: 100px;
+    left: 150px;
+    max-width: 500px;
+    /* background-color: blue; */
+    position: absolute;
+}
+
+.position_left{
+    top: 100px;
+    max-width: 500px;
+    /* background-color: pink;*/
+    position:absolute;
+    left: 630px;
+}

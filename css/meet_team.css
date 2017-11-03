@@ -1,0 +1,47 @@
+body{
+    background-color: lemonchiffon;
+}
+.container{
+    /*background-color: red;*/
+}
+.row{
+    /*background-color: purple;*/
+}
+.picture{
+    width: 300px;
+    max-width: 50%;
+    max-height: 200px;
+    margin-left: 200px;
+    margin-right: 25px;
+}
+.name{
+    height: 50px;
+    position: relative;
+}
+.bio{
+    width: 350px;
+    /*position: absolute;
+    /*left: 475px;
+    top: 100px;*/
+    align-content: center;
+}
+
+.picture_testing{
+    width: 300px;
+    max-width: 50%;
+    max-height: 200px;
+    margin-left: 200px;
+    margin-right: 25px;
+    /*align-content: center*/
+}
+
+.bio_testing h2{
+    padding-left: 45%;
+}
+
+.bio_testing p{
+    width: 300px;
+    text-align: justify;
+    text-align-last: left;
+    margin-left: 35%;
+}

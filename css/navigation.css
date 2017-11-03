@@ -1,0 +1,9 @@
+
+#navigation {
+    width: 120px;
+    height: 300px;
+    margin-top: 100px;
+}
+.nav-link {
+    color: red;
+}

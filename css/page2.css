@@ -1,0 +1,63 @@
+body { 
+  font: 14px/2 Georgia, serif;
+  background-color: lemonchiffon; 
+}
+
+.container{
+    padding-top: 60px;
+}
+
+#navigation {
+    width: 150px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.nav-link{
+    width:170px;
+}
+
+#cover_wrapper{
+    margin-top:80px;
+    margin-left:200px;
+}
+
+.cover_picture{
+    width: 350px;
+    height: 500px;
+    margin-right: 5px;
+}
+
+.animated{
+    animation-duration:2s !important;
+    animation-fill-mode: both;
+}
+
+.animated1{
+    animation-duration: 3.5s !important;
+}
+
+.animated2{
+    animation-duration: 4s !important;
+}
+
+#about{
+
+}
+
+#team{
+    margin-top: 135px;
+}
+
+#application{
+    background-image: url();
+    background-position: center;
+    background-size: 1150px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#application_picture{
+    width: 200px;
+    height: auto;
+}

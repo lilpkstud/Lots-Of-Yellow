@@ -1,0 +1,94 @@
+body { 
+  font: 14px/2 Georgia, serif;
+  background-color: lemonchiffon; 
+}
+
+h1, h2 {
+  line-height: 1.2;
+}
+.container{
+  padding-top: 60px;
+}
+#one{
+  background-image: url(../img/girls/girl3.jpg); 
+  background-position: center;
+  background-size: 1410px 1000px;
+  /* 
+  Convert if we use container
+  background-size: 1100px 900px; */
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+#about{
+    background-image: url(../img/location/overview.jpg);
+    background-position: center;
+    background-size: 1410px 1000px;
+    /*background-size: 1100px 900px;*/
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#portfolio{
+    background-image: url(../img/location/building6.jpg);
+    background-position: center;
+    background-size: 1410px 1000px;
+    /*background-size: 1100px 900px;*/
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#application{
+    background-image: url(../img/girls/girl1.jpg);
+    background-position: center;
+    background-size: 1150px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#services{
+    background-image: url(../img/boys/boy.jpg);
+    background-position: center;
+    background-size: 1150px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+#contact{
+    background-image: url(../img/girls/girl3.jpg);
+    background-position: center;
+    background-size: 1150px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.font_color{
+  color: ghostwhite;
+}
+
+.font_colorp{
+  color: ghostwhite;
+  font-size: 1.17em;
+  letter-spacing: 2px;
+}
+
+.font_colorh1{
+  color: ghostwhite;
+  text-align: center;
+  
+}
+
+.font_color_label{
+  color: ghostwhite;
+  font-size: 1.17em;
+  letter-spacing: 2px;
+}
+
+form{
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+label.font_color{
+  padding-right: 10px;
+}

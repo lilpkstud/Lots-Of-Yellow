@@ -1,0 +1,23 @@
+body {
+    font: 14px/2 Georgia, serif;
+    background-color: lemonchiffon; 
+}
+
+.cover_picture{
+    width: 350px;
+    height: 500px;
+    margin-right: 5px;
+}
+
+.animated{
+    animation-duration:2s !important;
+    animation-fill-mode: both;
+}
+
+.animated1{
+    animation-duration: 3.5s !important;
+}
+
+.animated2{
+    animation-duration: 4s !important;
+}

@@ -1,0 +1,44 @@
+/* Testing Center */
+.container{
+    color: #f5f5f5;
+}
+body {
+    color: #EAE3EA;
+    background-color: #FFCE00;
+}
+.image_hover{
+    position: relative;
+    margin: 5px 10px;
+}
+
+.image_hover .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 100%;
+    display: none;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+
+.image_hover:hover .title{
+    display: block;
+    background: rgba(0, 0, 0, .6);
+    opacity: .5;
+}
+
+/*
+ Reference: https://stackoverflow.com/questions/21086385/how-to-make-in-css-an-overlay-over-an-image
+
+ Yellow Background Option #1
+    Amber: #FFBF00
+ Yellow Background Option #2:
+    Sunflower: #FFCE00 CUrrently in use 
+*/
+
